@@ -1,0 +1,23 @@
+@relation weather
+
+@attribute prefix {junior, mid, senior}
+@attribute pay numeric
+@attribute yearsOfExperience numeric
+@attribute needsTraining {TRUE, FALSE}
+@attribute hasAHome {yes, no}
+
+@data
+junior,1293,85,TRUE,no
+junior,1240,90,TRUE,no
+mid,1450,86,FALSE,yes
+senior,1769,96,FALSE,yes
+senior,1855,80,FALSE,yes
+senior,1701,70,FALSE,no
+mid,1488,65,TRUE,yes
+junior,1199,95,TRUE,no
+junior,1233,70,TRUE,yes
+senior,2035,80,FALSE,yes
+junior,1011,70,TRUE,yes
+mid,1466,90,TRUE,yes
+mid,1400,75,FALSE,yes
+senior,1666,91,FALSE,no
